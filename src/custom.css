@@ -1,0 +1,53 @@
+:root {
+  --bs-primary: #2c3e50;
+  --bs-secondary: #34495e;
+  --bs-success: #27ae60;
+  --bs-danger: #e74c3c;
+  --bs-warning: #f39c12;
+  --bs-info: #3661be;
+  --bs-light: #ecf0f1;
+  --bs-dark: #2c3e50;
+}
+
+.table-primary th {
+  background-color: var(--bs-primary) !important;
+  color: #fff;
+}
+
+.badge-success {
+  background-color: var(--bs-success) !important;
+}
+
+.badge-warning {
+  background-color: var(--bs-warning) !important;
+}
+
+.badge-danger {
+  background-color: var(--bs-danger) !important;
+}
+
+.badge-info {
+  background-color: var(--bs-info) !important;
+}
+
+.badge-secondary {
+  background-color: var(--bs-secondary) !important;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
